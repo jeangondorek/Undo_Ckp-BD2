@@ -1,0 +1,11 @@
+<start T1>
+<T1,1,A,11>
+<start T2>
+<commit T1>
+<START CKPT(T2)>
+<T2,2,B,22>	
+<commit T2>
+<END CKPT>
+<start T3>
+<start T4>
+<T4,1,B,33>
